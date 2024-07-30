@@ -1,4 +1,4 @@
-function findItemsOver(fruits, threshold){
+export default function findItemsOver(fruits, threshold){
     let fruitArray = [];
   var itemOverThreshold = 0;
     for (i = 0; i < fruits.length; i++) {

@@ -1,4 +1,4 @@
-function transportFee(shift){
+export default function transportFee(shift){
     switch(shift){
       case 'morning':
         return 'R20';

@@ -1,4 +1,4 @@
-function isFromBellville(regNo){
+export default function isFromBellville(regNo){
     return regNo.startsWith('CY');
    }
   

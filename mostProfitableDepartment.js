@@ -1,4 +1,4 @@
-function mostProfitableDepartment(salesData) {
+export default function mostProfitableDepartment(salesData) {
     const departmentSales = {};
 
     salesData.forEach(sale => {
@@ -20,7 +20,7 @@ function mostProfitableDepartment(salesData) {
     return maxDepartment;
 }
 
-function mostProfitableDay(salesData) {
+export function mostProfitableDay(salesData) {
     const daySales = {};
 
     salesData.forEach(sale => {
