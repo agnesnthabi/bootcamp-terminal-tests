@@ -4,7 +4,7 @@ export default function countAllPaarl(regNo){
     for (let i=0; i<regNumbers.length; i++){
     const numbers = regNumbers[i];
       if (numbers.includes('CJ')){
-       console.log(numbers);
+      //  console.log(numbers);
         regNoCount++;
       }
      }

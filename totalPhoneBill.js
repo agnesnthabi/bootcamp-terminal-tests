@@ -1,6 +1,6 @@
 export default function totalPhoneBill(bills) {
     const billList = bills.split(', ');
-     console.log(billList);
+    //  console.log(billList);
      const call = 2.75;
      const sms = 0.65;
     var total = 0;
@@ -17,4 +17,4 @@ export default function totalPhoneBill(bills) {
       return 'R' + total.toFixed(2);
    }
     var phoneString = 'call, sms, call, sms, sms';
-    console.log(totalPhoneBill(phoneString));
+    

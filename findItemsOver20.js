@@ -3,7 +3,7 @@ export default function findItemsOver20(fruits) {
   for (let i = 0; i < fruits.length; i++) { 
       const fruit = fruits[i];
       if (fruit.qty > 20) {
-          console.log(fruit);
+          // console.log(fruit);
           fruitArray.push(fruit);
       }
   }
@@ -15,7 +15,7 @@ export function findItemsOver(fruits, threshold) {
   for (let i = 0; i < fruits.length; i++) { 
       const fruit = fruits[i];
       if (fruit.qty > threshold) {
-          console.log(fruit);
+          // console.log(fruit);
           fruitArray.push(fruit);
       }
   }
